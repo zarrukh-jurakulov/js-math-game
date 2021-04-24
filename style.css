@@ -1,0 +1,39 @@
+html,body {
+ margin: 0;
+ padding: 0;
+}
+#main {
+ height: 100vh;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: goldenrod;
+}
+#mainContent {
+ height: 20vh;
+ width: 30%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: row;
+}
+p{
+ font-size: 50px;
+ margin: 0px 10px;
+}
+input {
+ padding:  15px;
+ font-size: 25px;
+ border: 1px solid black;
+ background: none;
+ outline-style: none;
+}
+button {
+ padding: 15px;
+ font-size: 25px;
+ cursor: pointer;
+background: none;
+ border: 1px solid black;
+ outline-style: none;
+}
